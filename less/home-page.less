@@ -1,6 +1,12 @@
 // Home Content
 
 .home {
+  
+  .headerOrbit {
+    width:100%;
+    border-radius: 0px;
+  }
+
 
   .intro {
 
@@ -45,10 +51,12 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-
+    .border-styler();
+    
     .walk-text {
       width: 50%;
-
+      margin-right: 60%;
+      .border-styler();
       h3 {
         margin-bottom: 10px;
       }
@@ -57,11 +65,13 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .buttonStyle {
+        .button-styler(white, black);
       }
     }
 
     .walk-img {
+
       width: 46%;
       margin-left: 4%;
       
@@ -69,6 +79,8 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+        
+        
       }
     }
   }
