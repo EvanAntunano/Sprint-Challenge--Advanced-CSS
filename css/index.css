@@ -250,6 +250,10 @@ footer {
   font-size: 1.6rem;
   border-radius: 7px;
 }
+.home .walk .walk-text .buttonStyle:hover {
+  color: goldenrod;
+  background-color: darkgreen;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
