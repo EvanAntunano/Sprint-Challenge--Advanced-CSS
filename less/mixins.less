@@ -1,1 +1,37 @@
 // Mixins Here
+.border-styler () {
+    border: 1px solid red; 
+}
+
+.hover-styler(){
+    color:fuchsia;
+    font-size: 1.9rem;
+}
+
+.header-img-styler(){
+    border: 2px solid goldenrod;
+}
+
+.img-border(){
+    border: 2px solid fuchsia;
+    
+}
+
+.button-styler (@color, @bg-color) {
+    color:@color;
+    background-color:@bg-color;
+    width: 34%;
+    height: 30px;
+    font-size: 1.6rem;
+    border-radius: 7px;
+  }
+
+  .button-hover-styler(){
+      color: goldenrod;
+      background-color: darkgreen;
+  }
+  
+  .button-styler-phone (@height, @width) {
+      height: @height;
+      Width: @width;
+  }
